@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <!-- Primer Contenedor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+        <!-- BTN 1 -->
+        <Button
+            android:id="@+id/BT1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="70"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="BTN 1"
+            android:background="@color/white"/>
+        <!-- Contenedor 1.2 -->
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:orientation="vertical">
+            <!-- BTN 2 -->
+            <Button
+                android:id="@+id/BT2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:layout_marginBottom="2dp"
+                android:text="BTN 2"
+                android:background="@color/white"/>
+            <!-- BTN 3 -->
+            <Button
+                android:id="@+id/BT3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:layout_marginBottom="8dp"
+                android:text="BTN 3"
+                android:background="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Segundo Contendor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+        <!-- BTN 4 -->
+        <Button
+            android:id="@+id/BT4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_marginBottom="16dp"
+            android:text="BTN 4"
+            android:background="@color/white"/>
+        <!-- Boton 5 -->
+        <Button
+            android:id="@+id/BT5"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_marginBottom="16dp"
+            android:text="BTN 5"
+            android:background="@color/white"/>
+    </LinearLayout>
+    <!-- Tercer Contendor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="horizontal">
+        <!-- BTN 6 -->
+        <Button
+            android:id="@+id/BT6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BTN 6"
+            android:background="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
